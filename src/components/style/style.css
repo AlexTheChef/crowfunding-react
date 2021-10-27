@@ -225,7 +225,7 @@ a {
 .hero-img {
     width: 1440px;
     height: 400px;
-    background-image: url('images/image-hero-desktop.jpg');
+    background-image: url('/src/images/image-hero-desktop.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -577,8 +577,12 @@ input[type='radio'] {
     display: flex;
 }
 
-.congrats-pop>img {
+.congrats-pop>div{
+    background-image: url('/src/images/icon-check.svg');
+    width: 64px;
+    height: 64px;
     margin-bottom: 32px;
+    margin-left: 286px;
 }
 
 .end {
@@ -601,7 +605,7 @@ input[type='radio'] {
     .hero-img {
         width: 375px;
         height: 300px;
-        background-image: url('images/image-hero-mobile.jpg');
+        background-image: url('/src/images/image-hero-mobile.jpg');
     }
     .header {
         display: none;

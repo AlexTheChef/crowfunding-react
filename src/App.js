@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './style.css';
-import Header from './header'
-import HeaderMobile from './header-mobile';
-import Modal from './modal'
-import Main from './main';
+import './components/style/style.css';
+import Header from './components/header/header'
+import HeaderMobile from './components/header-mobile/header-mobile';
+import Modal from './components/modal/modal'
+import Main from './components/main/main';
 
 function App() {
   const [input0, setInput0] = useState(0);

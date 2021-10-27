@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import '../style/style.css';
 
 function Modal(props) {
     return (
@@ -101,7 +101,7 @@ function Modal(props) {
           </div>
 
           <div className={"congrats-pop" + (props.congrats ? ' active' : '')}>
-            <img src="/src/images/icon-check.svg" alt='' />
+            <div  />
             <h2>Thanks for your support!</h2>
             <p>
               Your pledge brings us one step closer to sharing Mastercraft Bamboo
