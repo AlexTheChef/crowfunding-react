@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './components/style/style.css';
+import './style/style.css';
 import Header from './components/header/header'
 import HeaderMobile from './components/header-mobile/header-mobile';
 import Modal from './components/modal/modal'
